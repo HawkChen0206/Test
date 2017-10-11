@@ -1,0 +1,104 @@
+@charset "UTF-8";
+html,
+body {
+  width: 100%;
+  overflow-x: hidden; }
+
+.navbar-right {
+  color: white; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: '微軟正黑體', sans-serif;
+  color: white; }
+
+h1 {
+  font-size: 60px; }
+
+h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 26px; }
+
+p {
+  font-size: 20px; }
+
+label {
+  display: block; }
+
+.carousel .item {
+  width: 120%;
+  height: 980px;
+  background-size: cover; }
+
+#jumbotron-0 {
+  background-image: url("../img/header/header-0.jpg"); }
+
+#jumbotron-1 {
+  background-image: url("../img/header/header-1.jpg"); }
+
+#jumbotron-2 {
+  background-image: url("../img/header/header-2.jpg"); }
+
+#jumbotron-3 {
+  background-image: url("../img/header/header-3.jpg"); }
+
+#jumbotron-4 {
+  background-image: url("../img/header/header-4.jpg"); }
+
+@media screen and (max-width: 767px) {
+  #jumbotron-0 {
+    background-image: url("../img/header/header-0-xs.jpg"); }
+  #jumbotron-1 {
+    background-image: url("../img/header/header-1-xs.jpg"); }
+  #jumbotron-2 {
+    background-image: url("../img/header/header-2-xs.jpg"); }
+  #jumbotron-3 {
+    background-image: url("../img/header/header-3-xs.jpg"); }
+  #jumbotron-4 {
+    background-image: url("../img/header/header-4-xs.jpg"); } }
+
+.jumbotron {
+  padding-top: 275px;
+  padding-bottom: 275px;
+  margin-bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.jumbotron-content {
+  position: relative;
+  z-index: 3;
+  text-align: left; }
+  .jumbotron-content h1 {
+    font-size: 60px;
+    color: white;
+    padding-left: 280px;
+    padding-top: 330px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); }
+  .jumbotron-content p {
+    font-size: 20px;
+    color: white;
+    padding-left: 280px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); }
+
+/* .glyphicon {
+    font-size: 75px;
+} */
+.carousel-control {
+  height: 980px;
+  margin-top: 0;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  border: 0;
+  z-index: 4; }

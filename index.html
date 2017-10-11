@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>期末作業</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!--導覽列開始-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <span class="sr-only">觸發縮放</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+                <a class="navbar-brand" href="#">
+                <img src="font/test.svg" width="100" height="44" class="d-inline-block align-top" alt="">
+                </a>
+            </div>
+
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#subscribeSection">出發</a>
+                    </li>
+                    <li>
+                        <a href="#featureSection">廣西</a>
+                    </li>
+                    <li>
+                        <a href="#introduceSection">貴州</a>
+                    </li>
+                    <li>
+                        <a href="#portfolioSection">雲南(一)</a>
+                    </li>
+                    <li>
+                        <a href="#userReviewSection">四川</a>
+                    </li>
+                    <li>
+                        <a href="#reportSection">雲南(二)</a>
+                    </li>
+                    <li>
+                        <a href="#reportSection">西藏</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <div id="headerCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="jumbotron" id="jumbotron-0">
+                    <div class="jumbotron-content">
+                        <h1>龍脊梯田</h1>
+                        <p>位於廣西,桂林近郊,這裡是世界梯田之最,還有金氏紀錄的長髮村</p>
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Go</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron" id="jumbotron-1">
+                    <div class="jumbotron-content">
+                        <h1>瀘沽湖</h1>
+                        <p>位處雲南四川交界的神祕女兒國,摩梭族人特有的母系社會及走婚文化...</p>
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Go</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron" id="jumbotron-2">
+                    <div class="jumbotron-content">
+                        <h1>亞丁!</h1>
+                        <p>三座神山保護的聖地,為了見妳一面我差點丟了性命,但是..值得!!</p>
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Go</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron" id="jumbotron-3">
+                    <div class="jumbotron-content">
+                        <h1>318國道</h1>
+                        <p>騎在318國道上,我的目的地就在前方</p>
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Go</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron" id="jumbotron-4">
+                    <div class="jumbotron-content">
+                        <h1>~拉薩~</h1>
+                        <p>歷經3個月的奔波,其中的辛酸點滴在心頭,當我騎到布達拉宮腳下,並沒有預期的感動淚水,只有滿心的敬畏和莫名的失落...</p>
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Go</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#headerCarousel" data-slide-to="1"></li>
+            <li data-target="#headerCarousel" data-slide-to="2"></li>
+            <li data-target="#headerCarousel" data-slide-to="3"></li>
+            <li data-target="#headerCarousel" data-slide-to="4"></li>
+        </ol>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#headerCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left "></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#headerCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right "></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</body>
+
+</html>
