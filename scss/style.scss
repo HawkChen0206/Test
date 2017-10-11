@@ -55,14 +55,14 @@ label {
 
 @for $i from 0 through 4 {
     #jumbotron-#{$i} {
-        background-image: url('../img/header/header-#{$i}.jpg');
+        background-image: url('../img/header-#{$i}.jpg');
     }
 }
 
 @media screen and ( max-width: 767px) {
     @for $i from 0 through 4 {
         #jumbotron-#{$i} {
-            background-image: url('../img/header/header-#{$i}-xs.jpg');
+            background-image: url('../img/header-#{$i}-xs.jpg');
         }
     }
 }

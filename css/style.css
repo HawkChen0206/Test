@@ -43,31 +43,31 @@ label {
   background-size: cover; }
 
 #jumbotron-0 {
-  background-image: url("../img/header/header-0.jpg"); }
+  background-image: url("../img/header-0.jpg"); }
 
 #jumbotron-1 {
-  background-image: url("../img/header/header-1.jpg"); }
+  background-image: url("../img/header-1.jpg"); }
 
 #jumbotron-2 {
-  background-image: url("../img/header/header-2.jpg"); }
+  background-image: url("../img/header-2.jpg"); }
 
 #jumbotron-3 {
-  background-image: url("../img/header/header-3.jpg"); }
+  background-image: url("../img/header-3.jpg"); }
 
 #jumbotron-4 {
-  background-image: url("../img/header/header-4.jpg"); }
+  background-image: url("../img/header-4.jpg"); }
 
 @media screen and (max-width: 767px) {
   #jumbotron-0 {
-    background-image: url("../img/header/header-0-xs.jpg"); }
+    background-image: url("../img/header-0-xs.jpg"); }
   #jumbotron-1 {
-    background-image: url("../img/header/header-1-xs.jpg"); }
+    background-image: url("../img/header-1-xs.jpg"); }
   #jumbotron-2 {
-    background-image: url("../img/header/header-2-xs.jpg"); }
+    background-image: url("../img/header-2-xs.jpg"); }
   #jumbotron-3 {
-    background-image: url("../img/header/header-3-xs.jpg"); }
+    background-image: url("../img/header-3-xs.jpg"); }
   #jumbotron-4 {
-    background-image: url("../img/header/header-4-xs.jpg"); } }
+    background-image: url("../img/header-4-xs.jpg"); } }
 
 .jumbotron {
   padding-top: 275px;
